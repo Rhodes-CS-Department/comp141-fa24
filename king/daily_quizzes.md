@@ -1,3 +1,6 @@
+# Trace the code. #
+
+
 ## Aug 30, 2024 ##
 ```
 this_can_be_called_anything = "Hello, everybody!"
