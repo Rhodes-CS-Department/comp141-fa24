@@ -48,3 +48,21 @@ if cond2:
   print("cond2 is True")
 else:
   print("Still nothing interesting happened.")
+
+# Sept 13, 2024
+a = 4
+b = 6
+c = 10
+if (a - b) > 0:
+  c = c * 2
+elif c > 8:
+  c = c * 3
+if c > (a * b):
+  a = a + b
+  b = a + b
+else:
+  c = c / 2
+a = a + 1
+b = b + 1
+c = a + b + c
+print(a, b, c)
