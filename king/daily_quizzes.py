@@ -66,3 +66,19 @@ a = a + 1
 b = b + 1
 c = a + b + c
 print(a, b, c)
+
+# Sept 16, 2024
+def does_this_change_anything(x, y, z):
+  x = y * z
+  y = x + y
+  z = x * y
+  print(x, y, z)
+
+def main():
+  a = 10
+  b = 9
+  c = 12
+  does_this_change_anything(a, b, c)
+  print(a, b, c)
+
+main()
