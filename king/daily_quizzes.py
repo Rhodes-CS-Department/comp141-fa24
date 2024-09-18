@@ -82,3 +82,25 @@ def main():
   print(a, b, c)
 
 main()
+
+# Sept 18, 2024
+from cs1.graphics import *
+
+def draw_thing(x, y):
+    set_color('blue')
+    draw_filled_polygon(x + 50, y, 
+                        x + 30, y + 80, 
+                        x, y + 100, 
+                        x + 100, y + 100,
+                        x + 70, y + 80)
+    set_color('green')
+    draw_filled_circle(x + 50, y + 80, 10)
+    
+def main():
+    open_canvas(200, 200)
+    draw_thing(0, 0)
+    draw_thing(100, 0)
+    draw_thing(0, 100)
+    draw_thing(100, 100)
+    
+main()
