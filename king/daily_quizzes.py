@@ -106,16 +106,22 @@ def main():
 main()
 
 # Sept 20, 2024
-def x(t, s):
-    print(4*t - 2*s)
+def x(s, t):
+  s = 2*t
+  t = -s
+  value = 10*s + 5*t
+  print(value)
 
-def y(t, s):
-    print(2*t - 4*s
-
-def x_y(t, s):
-    return x(t, s) + y(t, s)
+def y(s, t):
+  value = 6*s - 10*t
+  print(value)
 
 def m():
-    print(x_y(10, 5))
+  s = 4
+  t = 2
+  x(s, t)
+  x(s, t)
+  y(s, t)
+  y(2*s, 3*t)
 
 m()
