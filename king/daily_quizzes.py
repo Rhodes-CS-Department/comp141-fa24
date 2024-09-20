@@ -113,6 +113,8 @@ def x(s, t):
   print(value)
 
 def y(s, t):
+  s = -s
+  t = s / 4
   value = 6*s - 10*t
   print(value)
 
