@@ -104,3 +104,18 @@ def main():
     draw_thing(100, 100)
     
 main()
+
+# Sept 20, 2024
+def x(t, s):
+    print(4*t - 2*s)
+
+def y(t, s):
+    print(2*t - 4*s
+
+def x_y(t, s):
+    return x(t, s) + y(t, s)
+
+def m():
+    print(x_y(10, 5))
+
+m()
