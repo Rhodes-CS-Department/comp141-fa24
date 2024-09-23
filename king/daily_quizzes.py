@@ -127,3 +127,18 @@ def m():
   y(2*s, 3*t)
 
 m()
+
+# Sept 23, 2024
+def do_i_change_anything(a, b, c):
+  x = a + b
+  y = b - c
+  z = a * b * c
+  return x + y + z
+
+def main():
+  x = 3
+  y = 1
+  z = 10
+  z = do_i_change_anything(x, y, z)
+
+main()
