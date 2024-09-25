@@ -144,6 +144,10 @@ def main():
 main()
 
 # Sept 25, 2024
+## HINT: there are two erors:
+### one "logical" error, preventing the program from doing "what I want" but otherwise invisible
+### and one "semantic" error, causing the program to "throw an exception" (if the program ran!)
+## can you find both?
 def tiny_helper_function_1(x, y):
   return 2 * x - y
 
