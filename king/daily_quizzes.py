@@ -156,4 +156,4 @@ def medium_helper_function(x, y):
 def main():
   a = medium_helper_function(0, 0)
   c = medium_helper_function(1, 1)
-  b = medium_helper_function(5, 5)
+  b = medium_helper_function(-1, 1)
