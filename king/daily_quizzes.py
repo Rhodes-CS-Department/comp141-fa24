@@ -104,3 +104,41 @@ def main():
     draw_thing(100, 100)
     
 main()
+
+# Sept 20, 2024
+def x(s, t):
+  s = 2*t
+  t = -s
+  value = 10*s + 5*t
+  print(value)
+
+def y(s, t):
+  s = -s
+  t = s / 4
+  value = 6*s - 10*t
+  print(value)
+
+def m():
+  s = 4
+  t = 2
+  x(s, t)
+  x(s, t)
+  y(s, t)
+  y(2*s, 3*t)
+
+m()
+
+# Sept 23, 2024
+def do_i_change_anything(a, b, c):
+  x = a + b
+  y = b - c
+  z = a * b * c
+  return x + y + z
+
+def main():
+  x = 3
+  y = 1
+  z = 10
+  z = do_i_change_anything(x, y, z)
+
+main()
