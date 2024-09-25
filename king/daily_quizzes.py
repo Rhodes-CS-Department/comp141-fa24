@@ -142,3 +142,18 @@ def main():
   z = do_i_change_anything(x, y, z)
 
 main()
+
+# Sept 25, 2024
+def tiny_helper_function_1(x, y):
+  return 2 * x - y
+
+def tiny_helper_function_2(x, y):
+  return x * y + 1
+  
+def medium_helper_function(x, y):
+  return tiny_helper_function_1(x, y) / tiny_helper_function_2(x, y)
+
+def main():
+  a = medium_helper_function(0, 0)
+  c = medium_helper_function(1, 1)
+  b = medium_helper_function(5, 5)
