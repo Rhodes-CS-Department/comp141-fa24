@@ -142,3 +142,34 @@ def main():
   z = do_i_change_anything(x, y, z)
 
 main()
+
+# Sept 25, 2024
+## HINT: there are two erors:
+### one "logical" error, preventing the program from doing "what I want" but otherwise invisible
+### and one "semantic" error, causing the program to "throw an exception" (if the program ran!)
+## can you find both?
+def tiny_helper_function_1(x, y):
+  return 2 * x - y
+
+def tiny_helper_function_2(x, y):
+  return x * y + 1
+  
+def medium_helper_function(x, y):
+  return tiny_helper_function_1(x, y) / tiny_helper_function_2(x, y)
+
+def main():
+  a = medium_helper_function(0, 0)
+  c = medium_helper_function(1, 1)
+  b = medium_helper_function(-1, 1)
+
+# Sept 27, 2024
+def countdown(n):
+  while n > 0:
+    print(n, " ticks left!")
+    n -= 1
+
+def main():
+  countdown(4)
+  countdown(0)
+
+main()
