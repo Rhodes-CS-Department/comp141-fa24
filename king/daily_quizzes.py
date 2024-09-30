@@ -181,7 +181,6 @@ def find_biggest_power_of_2(below):
     guess *= 2
   return guess
 
-
 def main():
   keep_going = True
   limit = 10000
