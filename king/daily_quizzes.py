@@ -173,3 +173,22 @@ def main():
   countdown(0)
 
 main()
+
+# Sept 30, 2024
+def find_biggest_power_of_2(below):
+  guess = 1
+  while guess < below:
+    guess *= 2
+  return guess
+
+
+def main():
+  keep_going = True
+  limit = 10000
+  while keep_going:
+    power = find_biggest_power_of_2(start)
+    print(power)
+    limit /= 10
+    keep_going = limit > 1
+    
+main()
