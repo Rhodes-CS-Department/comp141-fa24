@@ -173,3 +173,23 @@ def main():
   countdown(0)
 
 main()
+
+# Sept 30, 2024
+## powers of 2:
+## 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8182, 16384, 32768, ...
+def find_biggest_power_of_2(below):
+  guess = 1
+  while guess < below:
+    guess *= 2
+  return guess
+
+def main():
+  keep_going = True
+  limit = 10000
+  while keep_going:
+    power = find_biggest_power_of_2(limit)
+    print(power)
+    limit /= 10
+    keep_going = limit > 1
+    
+main()
