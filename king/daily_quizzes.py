@@ -185,7 +185,7 @@ def main():
   keep_going = True
   limit = 10000
   while keep_going:
-    power = find_biggest_power_of_2(start)
+    power = find_biggest_power_of_2(limit)
     print(power)
     limit /= 10
     keep_going = limit > 1
