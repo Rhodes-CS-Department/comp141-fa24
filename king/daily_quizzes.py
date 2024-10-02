@@ -193,3 +193,26 @@ def main():
     keep_going = limit > 1
     
 main()
+
+# Oct 2, 2024
+def helper(n):
+  if n % 2 == 0: # n is even
+    return n / 2
+  else: # n is odd
+    return 3*n + 1
+
+def collatz(n):
+  n = helper(n) # so we can see what happens when n = 1
+  steps = 1
+  while n > 1:
+    n = helper(n)
+    steps += 1
+  return steps
+
+def main():
+  collatz(1)
+  collatz(16)
+  collatz(12)
+
+main()
+    
