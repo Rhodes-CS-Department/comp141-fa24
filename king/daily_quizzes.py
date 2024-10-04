@@ -193,3 +193,43 @@ def main():
     keep_going = limit > 1
     
 main()
+
+# Oct 2, 2024
+def helper(n):
+  if n % 2 == 0: # n is even
+    return n / 2
+  else: # n is odd
+    return 3*n + 1
+
+def collatz(n):
+  n = helper(n) # so we can see what happens when n = 1
+  steps = 1
+  while n > 1:
+    n = helper(n)
+    steps += 1
+  return steps
+
+def main():
+  collatz(1)
+  collatz(16)
+  collatz(12)
+
+main()
+    
+# Oct 4, 2024
+def my_first_for_loops(a):
+  # range syntax: range(start=0, stop, step=1) <- start, step have default values
+  ## NOTE: stop is EXCLUDED from the range
+  for x in range(a):
+    print(x)
+
+  for y in range(2, a, 2):
+    print(y)
+
+  for var_name in range(a, 0, -2):
+    print(var_name)
+
+def main():
+  my_first_for_loop(10)
+
+main()
