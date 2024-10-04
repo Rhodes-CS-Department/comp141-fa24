@@ -216,3 +216,20 @@ def main():
 
 main()
     
+# Oct 4, 2024
+def my_first_for_loops(a):
+  # range syntax: range(start=0, stop, step=1) <- start, step have default values
+  ## NOTE: stop is EXCLUDED from the range
+  for x in range(a):
+    print(x)
+
+  for y in range(2, a, 2):
+    print(y)
+
+  for var_name in range(a, 0, -2):
+    print(var_name)
+
+def main():
+  my_first_for_loop(10)
+
+main()
