@@ -257,3 +257,5 @@ def main():
     iterations += 1
     mystery = helper1(a) > helper2(b)
   print(iterations)
+
+main()
