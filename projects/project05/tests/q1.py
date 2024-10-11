@@ -1,12 +1,12 @@
 test = {
-  'name': 'Question 2',
+  'name': 'Question 1',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> from pcalendar import *
+          >>> from tanchi_boska import *
 
           >>> score(5, 5, 5)
           25
