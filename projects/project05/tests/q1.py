@@ -9,7 +9,7 @@ test = {
           >>> from tanchi_boska import *
 
           >>> score(5, 5, 5)
-          25
+          30
           >>> score(10, 0, 10)
           10
           >>> score(0, 10, 10)
