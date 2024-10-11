@@ -1,9 +1,9 @@
 {
-  "name": "Project 4",
-  "endpoint": "<#endpoint#>/project04",
+  "name": "Project 5",
+  "endpoint": "<#endpoint#>/project05",
   "src": [
-    "P4.ipynb",
-    "pcalendar.py"
+    "P5.ipynb",
+    "tanchi_boska.py"
   ],
   "tests": {
       "tests/q*.py": "ok_test"
