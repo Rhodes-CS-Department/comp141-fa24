@@ -14,8 +14,8 @@ test = {
           10
           >>> score(0, 10, 10)
           100
-          >>> score(1, 4, 7)
-          29
+          >>> score(1, 4, 6)
+          25
           """,
           'hidden': False,
           'locked': False,
