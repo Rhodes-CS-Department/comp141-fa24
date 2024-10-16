@@ -23,3 +23,12 @@ def newer_idea(n):
 def main():
   new_idea(5)
   newer_idea(5)
+
+# Oct 16, 2024
+def main():
+  for x in range(5, 40, 6):
+    for y in range(2, 45, 8):
+      print(x, y)
+      print(y > x and y % x == 0)
+      
+main()
