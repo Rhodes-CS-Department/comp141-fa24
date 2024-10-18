@@ -32,3 +32,11 @@ def main():
       print(y > x and y % x == 0)
       
 main()
+
+# Oct 18, 2024
+n = 5
+for i in range(n):
+    k = n - i
+    for j in range(k*k, 0, -1):
+        print('.', end='')
+    print()
