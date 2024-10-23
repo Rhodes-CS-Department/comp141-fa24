@@ -40,3 +40,21 @@ for i in range(n):
     for j in range(k*k, 0, -1):
         print('.', end='')
     print()
+
+# Oct 23, 2024
+# my_numbers.txt
+```
+10
+20
+30
+20
+10
+60
+```
+data = open('my_numbers.txt')
+total = 0
+count = 0
+for line in data:
+  total += int(line)
+  count += 1
+print(total / count)
