@@ -4,7 +4,7 @@ Espresso;Sabrina Carpenter;4;27
 Die With A Smile;Lady Gaga & Bruno Mars;5;9
 I Had Some Help;Post Malone Featuring Morgan Wallen;3;23
 Lose Control;Teddy Swims;8;62
-"Good Luck, Babe!";Chappell Roan;6;28
+Good Luck, Babe!;Chappell Roan;6;28
 Taste;Sabrina Carpenter;7;8
 Beautiful Things;Benson Boone;10;39
 Please Please Please;Sabrina Carpenter;9;19
