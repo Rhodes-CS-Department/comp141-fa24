@@ -58,3 +58,20 @@ for line in data:
   total += int(line)
   count += 1
 print(total / count)
+
+# Oct 25, 2024
+def write_data(filename, rows):
+  file = open(filename, 'w')
+  for i in range(rows):
+    data = str(random.randint(0, 10)) + ", " + str(random.randint(0, 10))
+    file.write(data)
+
+def read_data(filename):
+  file = open(filename, 'r')
+  for line in file:
+    num1, num2 = line.rstrip().split(", ")
+    print(num1 + num2)
+
+filename = "test_data.txt"
+write_data(filename, 4)
+read_data(filename)
