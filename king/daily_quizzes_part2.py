@@ -58,3 +58,41 @@ for line in data:
   total += int(line)
   count += 1
 print(total / count)
+
+# Oct 25, 2024
+def write_data(filename, rows):
+  file = open(filename, 'w')
+  for i in range(rows):
+    data = str(random.randint(0, 10)) + ", " + str(random.randint(0, 10))
+    file.write(data)
+
+def read_data(filename):
+  file = open(filename, 'r')
+  for line in file:
+    num1, num2 = line.rstrip().split(", ")
+    print(num1 + num2)
+
+filename = "test_data.txt"
+write_data(filename, 4)
+read_data(filename)
+
+# Oct 28, 2024
+def write_data(file):
+  for i in range(0, 15, 3):
+    if i % 2 == 0:
+      file.write("o")
+    elif i % 3 == 0:
+      file.write("x")
+    else:
+      file.write(".")
+  for i in range(22, -1, 7):
+    file.write("\n")
+  for i in range(3):
+    for j in range(5):
+      file.write("-")
+    file.write("|\n")
+
+file = open("oct28.txt", 'w')
+write_data(file)
+file.close()
+## What is in oct28.txt now?

@@ -3,3 +3,6 @@ Lucy,2010
 Tommy,2011
 Bear,2023
 Hofer,2021
+Monty, 2015
+Duo, 2015
+Beatrice, 2022
