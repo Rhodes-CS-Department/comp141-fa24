@@ -96,3 +96,17 @@ file = open("oct28.txt", 'w')
 write_data(file)
 file.close()
 ## What is in oct28.txt now?
+
+
+# Oct 30, 2024
+def playing_with_strings(s):
+  print("The string is:", s)
+  n = len(s)
+  new_s = ""
+  for i in range(0, len(s), 2):
+    print("The letter at index", i, "is", s[i])
+    new_s += s[i]
+  print("Here is the new string:", new_s)
+  for character in new_s:
+    print(character)
+playing_with_strings("mysterious strings!")
