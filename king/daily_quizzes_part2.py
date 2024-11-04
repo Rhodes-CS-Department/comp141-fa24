@@ -110,3 +110,18 @@ def playing_with_strings(s):
   for character in new_s:
     print(character)
 playing_with_strings("mysterious strings!")
+
+# Nov 4, 2024
+def quiz(s):
+  print(s[len(s) // 2:3:-1])
+  if s.islower() or s.isdigit():
+    return 101
+  if s.isupper():
+    return 202
+  if s.isalpha():
+    return 303
+
+print(quiz("GoodMorning")) # len(s) = 11
+print(quiz("GOODBYE!!")) # len(s) = 9
+print(quiz("8675309")) # len(s) = 7
+print(quiz("computer")) # len(s) = 8
