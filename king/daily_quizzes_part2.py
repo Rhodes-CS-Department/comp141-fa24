@@ -125,3 +125,19 @@ print(quiz("GoodMorning")) # len(s) = 11
 print(quiz("GOODBYE!!")) # len(s) = 9
 print(quiz("8675309")) # len(s) = 7
 print(quiz("computer")) # len(s) = 8
+
+
+# Nov 6, 2024
+def f(s):
+  a = s[::2]
+  return a
+
+def g(s):
+  a = s[::-1]
+  return a
+  
+def quiz(s):
+  new_s = f(s) * 2 + g(s)
+  return new_s[2:6] + new_s[-5]
+
+print(quiz("poodles"))
