@@ -141,3 +141,13 @@ def quiz(s):
   return new_s[2:6] + new_s[-5]
 
 print(quiz("poodles"))
+
+# Nov 8, 2024
+a = [1, 3, 5, 9]
+b = ['.', '-', ';']
+c = [a[1:3] * 2, b[-1] * 4]
+d = b[2] + a[1:] + c[0]
+a[0] = 10
+b[-3] = '/'
+c[0] = 0
+print(d[-1])
