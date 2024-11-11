@@ -152,3 +152,13 @@ b[-3] = '/'
 c[0] = 0
 print(d[-1])
 
+# Nov 11, 2024
+a = [6, 18]
+a.append(12)
+a.append('12')
+b = a
+c = b
+a[3] = 'hello'
+d = b + c + a
+d.append("goodbye")
+print(d)
