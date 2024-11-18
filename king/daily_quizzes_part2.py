@@ -162,3 +162,15 @@ a[3] = 'hello'
 d = b + c + a
 d.append("goodbye")
 print(d)
+
+# Nov 18, 2024: practice drawing arrows for references, cross out for reassignment
+a = [6, 4, 9, 2]
+b = a
+c = a[:]
+a[0] = 12
+a[2] = 18
+print(b)
+print(c)
+a = [1, 2, 3, 4]
+print(b)
+print(c)
