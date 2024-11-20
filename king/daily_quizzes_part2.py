@@ -174,3 +174,14 @@ print(c)
 a = [1, 2, 3, 4]
 print(b)
 print(c)
+
+# Nov 20, 2024
+a = [[6, 8, 7, 5], [2, 7, 1, 3], [6, 9, 4, 4]]
+print(len(a))
+for i in range(len(a)):
+  print(a[i])
+
+for i in range(len(a)):
+  for j in range(len(a[i]):
+    print(a[i][j], end=" ")
+  print()
