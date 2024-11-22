@@ -185,3 +185,22 @@ for i in range(len(a)):
   for j in range(len(a[i]):
     print(a[i][j], end=" ")
   print()
+
+# Nov 22, 2024
+def print_board(board):
+  for r in len(board):
+    for c in len(board[r]):
+      print(board[r][c], end=" ")
+    print()
+
+def play():
+  board = [['.', '.', '.'], ['.', '.', '.'], ['.', '.', '.']]
+  turns = 6
+  choice = 'X'
+  for i in range(turns):
+    print_board(board)
+    board[i // 2][i // 3] = choice
+    choice = 'O'
+
+play()
+
