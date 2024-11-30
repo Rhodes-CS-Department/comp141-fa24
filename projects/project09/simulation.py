@@ -136,3 +136,5 @@ def main():
     for i in range(ITERATIONS):
         state = next_state(state)
         print_state(state)
+
+#main() #uncomment this when you're ready to test your full program
