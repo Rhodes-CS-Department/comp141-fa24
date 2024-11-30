@@ -1,0 +1,15 @@
+{
+  "name": "Project 9",
+  "endpoint": "rhodes/cs141-king/fa24/project09",
+  "src": [
+    "P9.ipynb",
+    "simulation.py"
+  ],
+  "tests": {
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
