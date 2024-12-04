@@ -204,3 +204,21 @@ def play():
 
 play()
 
+# Dec 4, 2024
+def level_one():
+  inventory = {'health_potion': 3, 'speed_potion': 1}
+  inventory['arrows'] = 10
+  inventory['health_potion'] -= 2
+  print(inventory)
+  
+
+def level_two():
+  inventory = {'potions': {'health': 3, 'speed': 1}, 'scrolls': ['stun', 'haste', 'missile'], 'sword': 'epic'}
+  inventory['scrolls'][2] = 'lightning_bolt'
+  inventory['potions']['speed'] += 3
+  inventory['sword'] = 'legendary'
+  inventory['shield'] = 'small'
+  print(inventory)
+
+level_one()
+level_two()
