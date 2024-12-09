@@ -204,3 +204,42 @@ def play():
 
 play()
 
+# Dec 4, 2024
+def level_one():
+  inventory = {'health_potion': 3, 'speed_potion': 1}
+  inventory['arrows'] = 10
+  inventory['health_potion'] -= 2
+  print(inventory)
+
+def level_two():
+  inventory = {'potions': {'health': 3, 'speed': 1}, 'scrolls': ['stun', 'haste', 'missile'], 'sword': 'epic'}
+  inventory['scrolls'][2] = 'lightning_bolt'
+  inventory['potions']['speed'] += 3
+  inventory['sword'] = 'legendary'
+  inventory['shield'] = 'small'
+  print(inventory)
+
+level_one()
+level_two()
+
+# Dec 9, 2024
+def counting(a, b, c, d):
+  total = 8 * a + 4 * b + 2 * c + 1 * d
+  return total
+
+def another_way(numbers):
+  power = 1
+  total = 0
+  for number in numbers:
+    total += power * number
+    power *= 2
+  return total
+
+print(counting(1, 0, 1, 0))
+print(counting(1, 0, 0, 0))
+# can you get counting to return 13?
+
+# are either of these the same as counting? why?
+print(another_way([0, 1, 0, 1]))
+print(another_way([0, 0, 0, 1]))
+# can you get another_way to return 13?
