@@ -236,9 +236,10 @@ def another_way(numbers):
   return total
 
 print(counting(1, 0, 1, 0))
-print(counting(0, 1, 1, 0))
+print(counting(1, 0, 0, 0))
 # can you get counting to return 13?
 
+# are either of these the same as counting? why?
 print(another_way([0, 1, 0, 1]))
-print(another_way([0, 1, 1, 0]))
+print(another_way([0, 0, 0, 1]))
 # can you get another_way to return 13?
